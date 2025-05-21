@@ -43,9 +43,5 @@ public class Study_ClassStruct : MonoBehaviour
         s1.number = 200; // c1의 number를 100으로 변경
 
         Debug.Log($"s1 : {s1.number} / s2 : {s2.number}");
-        
-
     }
-
-
 }
