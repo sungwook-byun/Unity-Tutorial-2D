@@ -1439,10 +1439,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1331696494153441604}
-  - component: {fileID: 8590227523713055006}
+  - component: {fileID: 887669036227704678}
   m_Layer: 0
   m_Name: Brachio
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1455,7 +1455,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7967284352194722269}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -1475,8 +1475,8 @@ Transform:
   - {fileID: 4701108823876110850}
   - {fileID: 1306239189964444281}
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
---- !u!114 &8590227523713055006
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &887669036227704678
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1485,14 +1485,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 7967284352194722269}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a9523aed459030d4d82d455ede921b6a, type: 3}
+  m_Script: {fileID: 11500000, guid: 457caaf6f2e648f42844240bdb364af4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 0
-  minX: -15
-  maxX: 15
-  minZ: -15
-  maxZ: 15
+  moveSpeed: 10
 --- !u!1 &8217098591259014133
 GameObject:
   m_ObjectHideFlags: 0
